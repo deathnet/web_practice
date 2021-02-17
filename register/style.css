@@ -1,0 +1,49 @@
+header {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    /* resize는 유저가 textarea 박스의 사이즈를 드래그해서 조절할 수 있도록 한다. vertical은 세로로만 조절 */
+    resize: vertical;
+}
+
+.button {
+    /* label과 여백 맞춰줌 label이 90px의 width를 가졌다.*/
+    padding-left: 90px;
+}
+
+button {
+    margin-left: .5em;
+}
